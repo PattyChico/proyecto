@@ -1,0 +1,145 @@
+body
+{
+	color: black;
+	font-family: arial;
+	font-size: 16px;
+}
+header
+{
+	background: black;
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 80px;
+	margin: 0px; 
+	font-family: arial;
+	position: fixed;
+	top: 0px;
+	z-index: 20;
+
+}
+header p
+{
+	margin: 0px;
+	position: relative;
+	top: 32px;
+}
+
+section#usuarios
+{
+	margin-top: 100px;
+	width: 100%;
+	/*background: yellow;*/
+}
+div.menu_principal
+{
+	text-align: center;
+	margin: 0px;
+	border-bottom: 1px solid rgb(227, 227, 227);
+}
+div#link
+{
+	padding-bottom: 100px;
+}
+div.contenido
+{
+	display: none;
+	padding-bottom: 100px;
+}
+.nameFirst:hover 
+{
+	cursor: pointer;
+	/*background: rgb(255, 247, 229);*/
+	color: rgb(46, 47, 48);
+}
+.nameFirst
+{
+	padding: 40px;
+	font-weight: bolder;
+	text-decoration: none;
+	color: rgb(94, 94, 94);
+}
+div#imagen figure
+{
+	width: 150px;
+	height: 150px;
+}
+div#imagen figure img
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 100px;
+}
+a.nameFirst
+{
+	text-decoration: none;
+	position: relative;
+	top: 40px;
+}
+
+figure#imgUser
+{
+	width: 70px;
+	height: 70px;
+	position: relative;
+	top: -11px;
+	left: -30px;
+}
+figure#imgUser img
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 40px;
+}
+label
+{
+	text-align: left;
+	display: block;
+}
+div.checkbox
+{
+	margin-top: -110px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+table 
+{
+	width: 100%;
+	margin: 0px 0px 40px 0px;
+	/*background: rgb(232, 232, 232);*/
+	background: rgb(237, 237, 237);
+	color: rgb(40,40,40);
+	font-size: 14px;
+	border-radius: 10px;
+	font-weight: normal; 
+}
+th.tema
+{
+	font-weight: bolder; 
+	font-size: 15px;
+	color: white;
+	text-align: left;		
+	/*background: rgb(183, 155, 255);*/
+	background: rgb(127, 220, 255);
+}
+th 
+{
+	height: 36px;
+	text-align: left;
+	padding: 10px;
+	border-bottom: 1px solid rgb(200, 200, 200);
+}
+th.opcion
+{
+	text-align: center;
+	
+}
+@media screen and (min-width: 700px)
+{
+	table
+	{
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

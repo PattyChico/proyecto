@@ -1,0 +1,91 @@
+/*div.foro
+{
+	width: 100%;
+	background: purple;
+}*/
+div.pubYcom
+{
+	width: 100%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	background: rgb(230, 230, 230);
+}
+
+figure.userForo
+{
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 80px;
+	height: 80px;
+
+	overflow: hidden;
+	border-radius: 40px;
+}
+figure.userForo img
+{
+	width: 100%;
+}
+figure.userForo, p.nombreUser
+{
+	display: inline-block;
+}
+p.nombreUser, p.fecha
+{
+	font-weight: bolder;
+	color: rgb(25, 25, 112);
+}
+p.publicacion, p.comentario
+{
+	color: rgb(46, 47, 48);
+}
+p
+{
+	margin: 5px 10px;
+	line-height: 20px;
+}
+
+div.comentarios
+{	
+	margin:70px;
+	margin-top: 60px;
+	margin-bottom: 5px;
+	margin-bottom: 5px;
+	border-left: solid 1px rgb(210, 210, 210);
+}
+
+p.ComentarForo, p.verCom
+{
+	cursor: pointer;
+	padding: 12px;
+	color: black;
+	font-weight: bolder;
+}
+
+p.verCom, p.ComentarForo
+{
+	float: left;
+}
+textarea#texPub
+{
+	background: rgb(240, 240, 240);
+}
+div#comentar
+{
+	margin-top: -40px;
+}
+div textarea
+{
+	background: rgb(240, 240, 240);
+	margin-top: 5px;
+}
+
+@media screen and (min-width: 800px)
+{
+	div.pubYcom
+	{
+		width: 50%;
+	}
+}
